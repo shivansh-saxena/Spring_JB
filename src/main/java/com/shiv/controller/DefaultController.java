@@ -1,4 +1,4 @@
-package com.shiv.com.shiv.controller;
+package com.shiv.controller;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
