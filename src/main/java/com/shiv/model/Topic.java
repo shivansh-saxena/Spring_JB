@@ -1,6 +1,11 @@
 package com.shiv.model;
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+
+@Entity
 public class Topic {
+    @Id
     int id;
     String name;
 
