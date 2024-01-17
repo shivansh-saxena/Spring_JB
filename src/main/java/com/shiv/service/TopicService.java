@@ -33,6 +33,10 @@ public class TopicService {
     public void deleteTopic(int id) {
         topicRepository.deleteById(id);
     }
+
+    public List<Topic> getTopicByName(String name) {
+        return topicRepository.findByName(name);
+    }
 //    private List<Topic> topics = new ArrayList<>(Arrays.asList(
 //            new Topic(1,"topic1"),
 //            new Topic(2,"topic2")
